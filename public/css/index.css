@@ -2,7 +2,7 @@
   color: green;
 }
 .task_1 p {
-  background: red;
+  -webkit-text-fill-color: red;
 }
 .task_1 button {
   border: 1px solid #000;
@@ -36,7 +36,7 @@
 }
 .task_4 p {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'MyFont', Arial, sans-serif;
+  font-display: swap;
   font-weight: 700;
 }
 
@@ -64,7 +64,7 @@
 
 .task_6 h1 {
   border: 3px double blue;
-  padding: 10px;
+  outline-offset: 10px;
 }
 .task_6 div {
   border: 3px dashed red;
@@ -85,7 +85,7 @@
 }
 
 .task_8 div {
-  display: none;
+  visibility: hidden;
 }
 .task_8 p {
   max-height: 70px;
@@ -99,14 +99,14 @@
 }
 
 .task_9 h1 {
-  white-space: nowrap;
+  overflow-wrap: normal;
   word-spacing: 30px;
 }
 .task_9 div {
   hyphens: auto;
 }
 .task_9 p {
-  word-wrap: break-word;
+  word-break: break-all;
 }
 .task_9 textarea {
   resize: none;
